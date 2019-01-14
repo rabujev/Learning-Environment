@@ -1,6 +1,7 @@
 #first, #second {
   color: white;
-  background-color: #ffa500;
+  background-color: #CA9729;
+  /* Used adobe.color to have a coherent combination of colors (the result is still shit tho) */
   text-align: center;
   background-image: url("spacy-background.jpeg");
   background-repeat: no-repeat;
@@ -14,14 +15,14 @@
 #first {
   size: 20px;
   /* Doesn't work lol, I'll keep reading the tutorial, should come up somewhere */
-  border: 3px solid Tomato;
-  background-color: #ffa500;
+  border: 3px solid #E13C36;
+  background-color: #CA9729;
 }
 #third {
-  background: yellow right;
+  background: #CA9729 right;
   border-style: dashed;
   border-width: 2px 4px;
-  border-color: red blue blue;
+  border-color: #E13C36 #5F29D7 #5F29D7;
   border-right: solid black;
   /* the shorthand property is border: witdh style(req) color */
   border-radius: 5px;
