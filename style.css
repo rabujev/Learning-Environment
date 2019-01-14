@@ -1,0 +1,29 @@
+#first, #second {
+  color: white;
+  background-color: #ffa500;
+  text-align: center;
+  background-image: url("spacy-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /* si le bg attach est en fixed, l'image disparait, à voir pourquoi */
+  /* I should use the shorthand property for the different background properties : background (see #third below)*/
+  margin-left: 20px
+  /* This moves stuff because it creates an invisible margin */
+}
+#first {
+  size: 20px;
+  /* Doesn't work lol, I'll keep reading the tutorial, should come up somewhere */
+  border: 3px solid Tomato;
+  background-color: #ffa500;
+}
+#third {
+  background: yellow right;
+  border-style: dashed;
+  border-width: 2px 4px;
+  border-color: red blue blue;
+  border-right: solid black;
+  /* the shorthand property is border: witdh style(req) color */
+  border-radius: 5px;
+  margin: 40px;
+}
